@@ -16,7 +16,7 @@
 }
 
 body{
-    background-color: #fff;
+    background-color: #000000cd;
     height: 100vh;
 }
 
@@ -32,8 +32,8 @@ body{
 /* ESTILO DO CABEÇALHO */
 
 header{
-    padding: 40px 4%;
-    background-color: var(--cor-dois);
+    padding: 1px 4%;
+    background-color: var(--cor-cinco);
 }
 
 header > .interface {
@@ -43,7 +43,7 @@ header > .interface {
   }
 
   header a {
-    color: var(--cor-cinco);
+    color: #fff;
     font-size: 23px;
     text-decoration: none;
     display: inline-block;
@@ -67,7 +67,12 @@ header > .interface {
   /* ESTILO TOPO DO SITE */
 
   section.topo-do-site {
-    padding: 40px 4%;
+    padding: 70px 4%;
+    background-image: url(../images/background01.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center ;
+    height: 88vh;
   }
 
   section.topo-do-site .flex {
@@ -77,18 +82,118 @@ header > .interface {
   }
 
   .topo-do-site h1 {
-    color: var(--cor-cinco);
+    color: #fff;
+    text-shadow: 2px 4px 9px #5b664da8;
     font-size: 47px;
     line-height: 40px;
   }
 
   .topo-do-site .txt-topo-site h1 span {
-    color: var(--cor-dois);
+    color: var(--cor-um);
   }
 
   .topo-do-site .txt-topo-site p {
-    color: var(--cor-quatro);
+    color: #fff;
+    text-shadow: 2px 4px 9px #5b664db8;
     margin: 20px 0px;
     font-weight: bolder;
     font-size: 19px;
+  }
+/* ESTILOS DOS CARDS */
+
+section.sobre {
+    padding: 40px 4%;
+  }
+  
+  .sobre .especialidades-box {
+    color: #fff;
+    padding: 40px;
+    margin-top: 45px;
+    border-radius: 20px;
+    text-shadow: 2px 4px 9px #00000055;
+    transition: 0.2s;
+  }
+  .sobre .especialidades-box i {
+    font-size: 75px;
+    color: var(--cor-um);
+  }
+  
+  .sobre .especialidades-box h3 {
+    font-size: 28px;
+    margin: 15px 0px;
+  }
+  
+  .sobre .especialidades-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 8px var(--cor-cinco);
+  }
+  
+  section.sobre .flex {
+    gap: 60px;
+  }
+  
+  /* ESTILO DO SOBRE */
+  
+  section.sobre {
+    padding: 250px 4%;
+  }
+  
+  section.sobre .flex {
+    align-items: center;
+    gap: 150px;
+  }
+  
+  .sobre .txt-sobre {
+    color: #fff;
+  }
+  
+  .sobre .txt-sobre h2 {
+    font-size: 45px;
+    line-height: 50px;
+    margin-bottom: 30px;
+  }
+  
+  .sobre .txt-sobre h2 span {
+    color: #00ff08;
+    display: block;
+  }
+  .sobre .txt-sobre p {
+    margin: 20px 0px;
+    text-indent: 10px;
+    text-align: justify;
+  }
+  
+ .titulo{
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+    color: var(--cor-tres);
+ }
+  
+
+/* ESTILO DO RODAPE */
+
+ footer {
+    padding: 40px 4%;
+  }
+  
+  footer .flex {
+    justify-content: space-between;
+  }
+  
+  .line-footer {
+    padding: 20px 0;
+  }
+  
+  .borda {
+    border-top: 2px solid #00ff08;
+  }
+  
+  footer .line-footer p i {
+    color: #00ff08;
+    font-size: 30px;
+  }
+  
+  footer .line-footer p a {
+    color: #fff;
   }
