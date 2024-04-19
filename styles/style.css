@@ -2,7 +2,7 @@
 
 :root{
     --cor-um: #9CE639;
-    --cor-dois: #E6351E;
+    --cor-dois: #7c1e12;
     --cor-tres: #3ae54c;
     --cor-quatro: #4d5b8e;
     --cor-cinco: #5b664d; 
@@ -16,7 +16,7 @@
 }
 
 body{
-    background-color: #000000cd;
+    background-color: #fff;
     height: 100vh;
 }
 
@@ -33,7 +33,7 @@ body{
 
 header{
     padding: 1px 4%;
-    background-color: var(--cor-tres);
+    background-color: var(--cor-dois);
 }
 
 header > .interface {
@@ -51,7 +51,7 @@ header > .interface {
   }
 
   header nav.menu-desktop a:hover {
-    color: var(--cor-quatro);
+    color: var(--cor-um);
     transform: scale(1.05);
   }
 
@@ -61,7 +61,7 @@ header > .interface {
 
   header nav.menu-desktop ul li {
     display: inline-block;
-    padding: 0 98px;
+    padding: 0 30px;
   }
 
   /* ESTILO TOPO DO SITE */
@@ -83,18 +83,18 @@ header > .interface {
   }
 
   .topo-do-site h1 {
-    color: #fff;
+    color: #000;
     text-shadow: 2px 4px 9px #5b664da8;
     font-size: 47px;
     line-height: 40px;
   }
 
   .topo-do-site .txt-topo-site h1 span {
-    color: var(--cor-um);
+    color: var(--cor-tres);
   }
 
   .topo-do-site .txt-topo-site p {
-    color: #fff;
+    color: #000;
     text-shadow: 2px 4px 9px #5b664db8;
     margin: 20px 0px;
     font-weight: bolder;
@@ -215,7 +215,7 @@ section.sobre {
   }
   
   footer .line-footer p a {
-    color: #fff;
+    color: #000;
   }
 
 
