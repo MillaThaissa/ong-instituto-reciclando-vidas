@@ -61,24 +61,23 @@ header > .interface {
 
   header nav.menu-desktop ul li {
     display: inline-block;
-    padding: 0 100px;
+    padding: 0 150px;
   }
 
   /* ESTILO TOPO DO SITE */
 
   section.topo-do-site {
     padding: 70px 4%;
-    background-image: url(../images/background01.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center ;
-    height: 88vh;
+
   }
 
   section.topo-do-site .flex {
     align-items: center;
     justify-content: center;
-    gap: 90px;
+    gap: 50px;
   }
 
   .topo-do-site h1 {
@@ -107,8 +106,8 @@ section.sobre {
   
   .sobre .especialidades-box {
     color: #fff;
-    padding: 40px;
-    margin-top: 45px;
+    padding: 20px;
+    margin-top: 5px;
     border-radius: 20px;
     text-shadow: 2px 4px 9px #00000055;
     transition: 0.2s;
@@ -163,6 +162,24 @@ section.sobre {
     text-align: justify;
   }
   
+  .sobre-img h2 {
+    color: #fff;
+    margin: 0 auto;
+    padding-top: 100px;
+    text-align: justify;
+  }
+
+  .sobre-p p{
+    color: #fff;
+    margin: 0 auto;
+    text-align: justify;
+    text-indent: 15px;
+  }
+
+
+  
+
+
  .titulo{
     font-size: 45px;
     font-weight: bold;
@@ -170,6 +187,7 @@ section.sobre {
     color: var(--cor-tres);
  }
   
+
 
 /* ESTILO DO RODAPE */
 
@@ -203,7 +221,7 @@ section.sobre {
 
   .slider{
     margin: 0 0;
-    width: 1600px;
+    width: 1920px;
     height: 600px;
     overflow: hidden;
   }
@@ -225,7 +243,7 @@ section.sobre {
   }
 
   .slide img{
-    margin: 0;
+    margin: 30px;
     width: 1800px;
   }
 
