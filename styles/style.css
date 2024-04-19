@@ -33,7 +33,7 @@ body{
 
 header{
     padding: 1px 4%;
-    background-color: var(--cor-cinco);
+    background-color: var(--cor-tres);
 }
 
 header > .interface {
@@ -51,7 +51,7 @@ header > .interface {
   }
 
   header nav.menu-desktop a:hover {
-    color: var(--cor-um);
+    color: var(--cor-quatro);
     transform: scale(1.05);
   }
 
@@ -61,11 +61,13 @@ header > .interface {
 
   header nav.menu-desktop ul li {
     display: inline-block;
-    padding: 0 150px;
+    padding: 0 98px;
   }
 
   /* ESTILO TOPO DO SITE */
 
+
+  
   section.topo-do-site {
     padding: 70px 4%;
     background-repeat: no-repeat;
@@ -204,7 +206,7 @@ section.sobre {
   }
   
   .borda {
-    border-top: 2px solid #00ff08;
+    border-top: 3px solid #00ff08;
   }
   
   footer .line-footer p i {
