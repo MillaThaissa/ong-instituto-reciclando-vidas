@@ -6,6 +6,7 @@
     --cor-tres: #3ae54bd6;
     --cor-quatro: #4d5b8e;
     --cor-cinco: #5b664d; 
+    --cor-seis: #9d1515;
 }
 
 * {
@@ -16,7 +17,7 @@
 }
 
 body{
-  background-image: linear-gradient(#173540, #3D3D3D);
+  background-color: #fff;
   background-repeat: no-repeat;
 }
 
@@ -37,7 +38,7 @@ body{
 
 header{
     padding: 10px 4%;
-    background-color: var(--cor-tres);
+    background-color: var(--cor-seis);
 }
 
 header > .interface {
@@ -87,7 +88,7 @@ header > .interface {
   }
 
   .topo-do-site h1 {
-    color: #fff;
+    color: #000;
     text-shadow: 2px 4px 9px #00000032;
     font-size: 47px;
     line-height: 40px;
@@ -98,7 +99,7 @@ header > .interface {
   }
 
   .topo-do-site .txt-topo-site p {
-    color: #fff;
+    color: #000;
     text-shadow: 2px 4px 9px #0000002e;
     margin: 20px 0px;
     font-weight: bolder;
@@ -111,7 +112,7 @@ section.sobre {
   }
   
   .sobre .especialidades-box {
-    color: #fff;
+    color: #000;
     padding: 20px;
     margin-top: 35px;
     border-radius: 20px;
@@ -166,7 +167,7 @@ section.sobre {
   }
   
   .sobre-img h2 {
-    color: #fff;
+    color: #000;
     font-size: 24px;
     margin: 0 auto;
     padding-top: 80px;
@@ -174,7 +175,7 @@ section.sobre {
   }
 
   .sobre-p p{
-    color: #fff;
+    color: #000;
     margin: 0 auto;
     font-size: 1.4rem;
     text-align: justify;
@@ -294,9 +295,10 @@ form .btn-enviar input:hover{
   }
   
   .borda {
-    border-top: 3px solid #00ff08;
+    border-top: 3px solid #9d1515;
   }
   
+
   footer .line-footer p i {
     color: #00ff08;
     font-size: 30px;
@@ -304,8 +306,17 @@ form .btn-enviar input:hover{
   
   footer .line-footer p a {
     color: #000;
+    text-decoration: none;
+    background-color: #84B026;
+    border-radius: 10px;
+    font-size: 16px;
+    padding: 10px 10px;
   }
 
+
+  footer .line-footer p {
+    display: inline-block;
+  }
 
   /* CARROSSEL */
 
