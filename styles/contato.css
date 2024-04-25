@@ -1,0 +1,91 @@
+
+.main {
+    margin-top: 10%;
+    display: flex;
+    margin-left: 15%;
+    align-items: center;
+    width: 1250px;
+    height: fit-content;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    flex-direction: column;
+}
+
+.tit01{
+    text-align: center;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+p{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.titulo{
+    margin-top: 3rem;
+    text-align: center;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+
+.formulario {
+    margin-top: 3rem;
+    margin-bottom: 8rem;
+}
+
+
+.input1, .input2{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+
+.input1{
+    display: flex;
+    justify-content: center;
+}
+
+.input2{
+    display: flex;
+    justify-content: center;
+}
+
+.btn-enviar{
+    display: flex;
+    justify-content: center;
+}
+
+#input-1, #input-2{
+    margin: 3rem;
+    border: 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 15px;
+}
+
+input[type="submit" i] {
+    background-color: #9d1515;
+    padding: 15px;
+    color: white;
+    border: 0;
+    border-radius: 3px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+}
+
+.icon-contato{
+    color: white;
+    font-size: 25px;
+    background-color: #9d1515;
+    padding: 15px;
+    border-radius: 100%;
+    margin: 25px;
+}
+
+.contato-geral{
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
